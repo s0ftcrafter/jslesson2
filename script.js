@@ -26,3 +26,17 @@ else if (time >= 11 && time <= 17) {
 else if (time >= 18 && time <= 23) {
     alert((time - 12) + " часов вечера");
 } 
+
+let X = +prompt("Введите первое число ");
+let Y = +prompt("Введите второе число ");
+let Z = +prompt("Введите третье число ");
+
+if (X > Y && X > Z) {
+    alert("Наибольшее число: " + X);
+}
+else if (Y > X && Y > Z) {
+    alert("Наибольшее число: " + Y);
+}
+else if (Z > X && Z > Y) {
+    alert("Наибольшее число: " + Z);
+}
